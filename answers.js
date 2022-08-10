@@ -43,7 +43,7 @@
 // You should be modifying the elements by accessing them. 
 // It is up to you which methods to use.
 
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 // const sharky = ["Sharky", "shark", 20, "Left Coast"]
 // const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 // const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
@@ -70,14 +70,28 @@ const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 // console.log(dart)
 
 //#4
-wolfy.shift();
-wolfy.unshift("Gameboy");
-console.log(wolfy)
+// wolfy.shift();
+// wolfy.unshift("Gameboy");
+// console.log(wolfy);
 
 
 ////////////////////////////////
-// Yell at the Ninja Turtles
+// Yell at the Ninja Turtles -
+
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+// Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
+
 ////////////////////////////////
+
+let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for ( let turtle of ninjaTurtles){
+    
+  let newTurtle = turtle.toUpperCase();
+
+  console.log(newTurtle);
+    
+}
 
 
 ////////////////////////////////
