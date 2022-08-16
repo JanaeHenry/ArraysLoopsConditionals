@@ -203,6 +203,7 @@
 //  Find the Median
 ////////////////////////////////
 
+
 // const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
 // //The median is the middle number in a sorted, ascending or descending, list of numbers and can be more descriptive of that data set than the average.
@@ -220,9 +221,30 @@
 
 // console.log (calculateMedian(nums))
 
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+//The median is the middle number in a sorted, ascending or descending, list of numbers and can be more descriptive of that data set than the average.
+
+// let calculateMedian = function (arr){
+//         arr.sort();
+//         let median = 0;
+//         let length = arr.length;
+//         if (length % 2 != 0 )
+//         median = arr[Math.floor(length / 2)]
+//         else 
+//         median = (arr[length/2]+arr[(length/2)-1]) / 2
+//       return median;  
+//       }
+
+// console.log (calculateMedian(nums))
+
+
+
+
 ///////////////////////////////
 // Hungry For More
 ////////////////////////////////
+
 
 // const kristynsCloset = [
 //     "left shoe",
@@ -285,3 +307,67 @@
 //           console.log(`Thoms have "${thomsCloset[i][x]}" in his closet`)
 //           }
 //   } 
+
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+
+// let kristynsShoe = kristynsCloset.shift();
+// thomsCloset[2].push (kristynsShoe);
+
+
+// let kristynOutfit = []
+// let thomOutfit = []
+
+// for (let i=0; i<3; i++) {
+//     let kristyRandom = Math.floor (Math.random()*6)
+//     kristynOutfit.push(kristynsCloset[kristyRandom]) 
+// }
+
+// for (let i=0; i<3; i++) {
+//     let thomsRandom = Math.floor(Math.random()*thomsCloset[i].length)
+//     thomOutfit.push(thomsCloset[i][thomsRandom]) 
+// }
+
+// console.log(`Kristy will wear "${kristynOutfit[0]}", "${kristynOutfit[1]}", and "${kristynOutfit[2]}"`)
+// console.log(`Thoms will wear "${thomOutfit[0]}", "${thomOutfit[1]}", and "${thomOutfit[2]}"`)
+
+
+// for (const item of kristynsCloset) {
+//     console.log(`WHIRR: Now washing ${item}`);
+// }
+
+// for (let i=0; i<thomsCloset.length; i++) {
+//         for (let x=0; x<thomsCloset[i].length; x++) {
+//         console.log(`Thoms have "${thomsCloset[i][x]}" in his closet`)
+//         }
+// } 
+
+
