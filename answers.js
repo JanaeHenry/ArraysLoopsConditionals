@@ -115,6 +115,7 @@ for ( let turtle of ninjaTurtles){
 
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
+//The median is the middle number in a sorted, ascending or descending, list of numbers and can be more descriptive of that data set than the average.
 
 let calculateMedian = function (arr){
         arr.sort();
@@ -145,7 +146,7 @@ const kristynsCloset = [
   "marshmallow peeps"
 ];
 
-// Thom's closet is more complicated. Check out this nested data structure!!
+
 const thomsCloset = [
   [
     // These are Thom's shirts
